@@ -4,9 +4,9 @@
 # is considered to be the first unless any hosts have the primary
 # property set.  Don't declare `role :all`, it's a meta role.
 
-role :app, %w{deploy@192.168.0.8}
-role :web, %w{deploy@192.168.0.8}
-role :db,  %w{deploy@192.168.0.8}
+role :app, %w{deployer@ubuntusvr14.vb}
+role :web, %w{deployer@ubuntusvr14.vb}
+role :db,  %w{deployer@ubuntusvr14.vb}
 
 
 # Extended Server Syntax
@@ -17,7 +17,7 @@ role :db,  %w{deploy@192.168.0.8}
 set :nginx_server_name, 'ubuntu.vm'
 set :unicorn_workers, 4
 
-server 'ubuntusvr14.vb', user: 'deploy', roles: %w{web app}, my_property: :my_value
+server 'ubuntusvr14.vb', user: 'deployer', roles: %w{web app}, my_property: :my_value
 
 # Custom SSH Options
 # ==================

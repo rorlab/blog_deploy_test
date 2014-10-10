@@ -2,7 +2,7 @@
 lock '3.2.1'
 
 set :application, 'blog'
-set :repo_url, 'git@example.com:me/my_repo.git'
+set :repo_url, 'git@github.com:rorlab/blog_deploy_test.git'
 set :deploy_to, '/home/deployer/apps/blog'
 
 # rbenv 환경설정

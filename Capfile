@@ -14,6 +14,7 @@ require 'capistrano/rails/migrations'
 require 'capistrano/rails/console'
 require 'capistrano/rails/collection'
 require 'capistrano/unicorn_nginx'
+require 'capistrano/rails_tail_log'
 
 # Loads custom tasks from `lib/capistrano/tasks' if you have any defined.
 Dir.glob('lib/capistrano/tasks/*.rake').each { |r| import r }

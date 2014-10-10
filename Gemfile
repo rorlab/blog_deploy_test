@@ -12,6 +12,7 @@ gem 'capistrano-rbenv-install', '1.0.0', group: :development
 gem 'capistrano-unicorn-nginx', '2.0.0', group: :development
 gem 'capistrano-rails-console'
 gem 'capistrano-rails-collection'
+gem 'capistrano-rails-tail-log'
 
 group :production do
   gem 'rb-readline'

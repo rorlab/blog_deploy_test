@@ -18,6 +18,7 @@ group :production do
   gem 'rb-readline'
 end
 
+gem 'bootstrap-sass'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0.beta2'
